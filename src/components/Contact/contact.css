@@ -1,5 +1,5 @@
 .contact__container {
-  grid-template-columns: repeat(3, 300px);
+  grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   column-gap: 1.8rem;
 }
@@ -8,6 +8,11 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--container-color);
   padding: 1rem 0 1rem 2rem;
+}
+.contact__i {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 .contact__icon {
   display: block;
@@ -22,7 +27,7 @@
 }
 .contact__button {
   color: var(--title-color);
-  font-size: var(--small-font-size);
+  font-size: var(--normal-font-size);
   display: inline-flex;
   column-gap: 0.3rem;
 }
@@ -31,7 +36,7 @@
 /* For large devices */
 @media screen and (max-width: 992px) {
   .contact__container {
-    grid-template-columns: repeat(3, 250px);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -41,7 +46,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
   .contact__content {
-    padding: 3.5rem 0.5rem 1.25rem 1.5rem;
+    padding: 2rem 0 1.25rem 1.5rem;
   }
   .contact__icon {
     font-size: 1.5rem;

@@ -7,7 +7,7 @@
 
 .about__description {
   font-size: var(--normal-font-size);
-  padding: 0 2rem 0 0;
+  padding: 0 1rem 0 1rem;
   margin-bottom: var(--mb-2);
   text-align: center;
 }

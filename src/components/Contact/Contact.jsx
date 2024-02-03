@@ -8,14 +8,14 @@ export const Contact = () => {
 
       <div className="contact__container container grid">
         <div className="contact__content">
-          <div>
+          <div className="contact__i">
             <i className="uil uil-map contact__icon"></i>
             <h3 className="contact__title">Location</h3>
           </div>
           <span className="contact__button">Bangalore, India</span>
         </div>
         <div className="contact__content">
-          <div>
+          <div className="contact__i">
             <i className="uil uil-at contact__icon"></i>
             <h3 className="contact__title">Gmail</h3>
           </div>
@@ -25,7 +25,7 @@ export const Contact = () => {
           </span>
         </div>
         <div className="contact__content">
-          <div>
+          <div className="contact__i">
             <i className="uil uil-linkedin-alt contact__icon"></i>
             <h3 className="contact__title">LinkedIn</h3>
           </div>
