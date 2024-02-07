@@ -44,7 +44,7 @@ export const Header = () => {
                     : "nav__link"
                 }
               >
-                <i className="uil uil-file-alt nav__icon"></i> Toolset
+                <i className="uil uil-file-alt nav__icon"></i> Skills
               </a>
             </li>
 

@@ -19,10 +19,10 @@ export const Contact = () => {
             <i className="uil uil-at contact__icon"></i>
             <h3 className="contact__title">Gmail</h3>
           </div>
-          <span className="contact__button">
+          <a href="mailto:jameel.webdev@gmail.com" className="contact__button">
             jameel.webdev
             <i className="uil uil-external-link-alt"></i>
-          </span>
+          </a>
         </div>
         <div className="contact__content">
           <div className="contact__i">

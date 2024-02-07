@@ -20,12 +20,12 @@ export const Social = () => {
       </a>
 
       <a
-        href="https://www.instagram.com/jameel.webdev"
+        href="mailto:jameel.webdev@gmail.com"
         className="home__social-icon"
         target="_blank"
         rel="noreferrer"
       >
-        <i className="uil uil-instagram"></i>
+        <i className="uil uil-envelope"></i>
       </a>
     </div>
   );
