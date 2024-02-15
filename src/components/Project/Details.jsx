@@ -1,45 +1,26 @@
-import Work1 from "../../assets/work1.jpg";
-import Work2 from "../../assets/work2.jpg";
-import Work3 from "../../assets/work3.jpg";
-import Work4 from "../../assets/work4.jpg";
-import Work5 from "../../assets/work5.jpg";
-import Work6 from "../../assets/work6.jpg";
+import Work1 from "../../assets/Project1.png";
+import Work2 from "../../assets/Project2.png";
 
 export const projectsData = [
   {
     id: 1,
     image: Work1,
-    title: "Web design",
-    category: "web",
+    title: "Flight Ticket Booking App",
+    description:
+      "Your convenient gateway to seamless travel experiences. With intuitive navigation and user-friendly design, our platform allows you to effortlessly search and book flights for your next adventure.",
+    techUsed: ["Redux,", "Razorpay."],
+    live: "https://flight-ticket-booking-webapp.netlify.app/",
+    github:
+      "https://github.com/jameel-webdev/flight-ticket-booking-app-frontend",
   },
   {
     id: 2,
     image: Work2,
-    title: "App movil",
-    category: "app",
-  },
-  {
-    id: 3,
-    image: Work3,
-    title: "Brand design",
-    category: "design",
-  },
-  {
-    id: 4,
-    image: Work4,
-    title: "App movil",
-    category: "app",
-  },
-  {
-    id: 5,
-    image: Work5,
-    title: "Web design",
-    category: "web",
-  },
-  {
-    id: 6,
-    image: Work6,
-    title: "Web design",
-    category: "web",
+    title: "RealTime WebChatApp",
+    description:
+      "Experience seamless real-time communication with our MERN Stack Chat Application. Powered by Socket.IO for instant messaging and Zstand for efficient state management, our app ensures smooth and reliable chat experiences.",
+    techUsed: ["Zustand,", "Socket.io."],
+    live: "https://chatapp-apce.onrender.com/",
+    github: "https://github.com/jameel-webdev/Real-time-ChatApp",
   },
 ];

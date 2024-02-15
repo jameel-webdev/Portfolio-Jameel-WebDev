@@ -1,3 +1,5 @@
+import jameelCV from "../../assets/jameelCV.pdf";
+
 export const Data = () => {
   return (
     <div className="home__data">
@@ -11,7 +13,7 @@ export const Data = () => {
         solutions.
       </p>
 
-      <a download="" href="" className="button button--flex">
+      <a download href={jameelCV} className="button button--flex">
         Resume
         <svg
           className="button__icon"

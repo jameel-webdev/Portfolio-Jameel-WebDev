@@ -5,12 +5,13 @@
 }
 
 .work__img {
-  width: 320px;
+  width: 380px;
   border-radius: 1rem;
   margin-bottom: var(--mb-1);
 }
 
 .work__card {
+  width: 400px;
   background-color: var(--container-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1rem;
@@ -40,6 +41,11 @@
 
 .work__button:hover .work__button-icon {
   transform: translateX(00.25rem);
+}
+
+.work__description,
+.work__techs {
+  margin-bottom: 1rem;
 }
 
 /*=============== BREAKPOINTS ===============*/
