@@ -13,7 +13,7 @@ export const Data = () => {
         solutions.
       </p>
 
-      <a download href={jameelCV} className="button button--flex">
+      <a href={jameelCV} className="button button--flex" target="blank">
         Resume
         <svg
           className="button__icon"
