@@ -13,7 +13,11 @@ export const Data = () => {
         solutions.
       </p>
 
-      <a href={jameelCV} className="button button--flex" target="blank">
+      <a
+        href="https://drive.google.com/file/d/1B5V3RsmXGpOFDSr27YvVHawEZc4apl0-/view?usp=sharing"
+        className="button button--flex"
+        target="blank"
+      >
         Resume
         <svg
           className="button__icon"
